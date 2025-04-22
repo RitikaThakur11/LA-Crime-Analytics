@@ -9,7 +9,7 @@ df.columns = df.columns.str.strip()  # Clean column names
 
 # Data Inspection & Cleaning
 print("Data Shape:", df.shape)
-print("Data Info:")
+print("Data Info:")cc
 df.info()
 print("Summary Statistics:")
 print(df.describe(include='all'))
