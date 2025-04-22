@@ -88,7 +88,7 @@ plt.figure(figsize=(10, 6))
 sns.heatmap(numeric_df.corr(numeric_only=True), annot=True, cmap='coolwarm')
 plt.title("Correlation Heatmap")
 plt.show()
-
+#
 # Scatter Map of LAT/LON
 location_data = df[['LAT', 'LON']].dropna()
 plt.figure(figsize=(8, 6))
