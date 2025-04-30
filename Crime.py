@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-
+geoo
 # Load and clean the data
 df = pd.read_csv("D:\\crime.csv")
 df.columns = df.columns.str.strip()  # Clean column names
